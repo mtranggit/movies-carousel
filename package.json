@@ -45,6 +45,10 @@
     "url-loader": "^4.1.1"
   },
   "dependencies": {
+    "@mantine/carousel": "^6.0.5",
+    "@mantine/core": "^6.0.5",
+    "@mantine/hooks": "^6.0.5",
+    "embla-carousel-react": "^7.1.0",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "tslib": "^2.3.0"
