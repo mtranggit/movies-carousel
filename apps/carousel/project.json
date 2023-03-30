@@ -51,7 +51,7 @@
       "options": {
         "buildTarget": "carousel:build",
         "hmr": true,
-        "port": 8081
+        "port": 8080
       },
       "configurations": {
         "development": {
@@ -89,7 +89,7 @@
       "defaultConfiguration": "development",
       "options": {
         "buildTarget": "carousel:build",
-        "port": 8081
+        "port": 8080
       },
       "configurations": {
         "development": {
