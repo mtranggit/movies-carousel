@@ -55,6 +55,7 @@ export function App() {
   ));
 
   return (
+    // <div className={styles.container}>This is a cool carousel</div>
     <Carousel maw={320} mx="auto" withIndicators height={200}>
       {slides}
     </Carousel>
