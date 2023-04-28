@@ -1,7 +1,8 @@
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
 import styles from './app.module.css';
 import { Carousel } from '@mantine/carousel';
-import { Image } from '@mantine/core';
+import { Box, Image } from '@mantine/core';
+import { MFE_BORDER } from '../constants';
 
 const images = [
   {
@@ -56,9 +57,11 @@ export function App() {
 
   return (
     // <div className={styles.container}>This is a cool carousel</div>
-    <Carousel maw={320} mx="auto" withIndicators height={200}>
-      {slides}
-    </Carousel>
+    <Box style={{border: `${MFE_BORDER}`}}>
+      <Carousel maw={320} mx="auto" withIndicators height={200}>
+        {slides}
+      </Carousel>
+    </Box>
   );
 }
 
